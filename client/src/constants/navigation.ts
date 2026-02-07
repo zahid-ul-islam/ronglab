@@ -1,0 +1,106 @@
+import {
+  Home,
+  ShoppingBag,
+  Baby,
+  Smartphone,
+  Armchair,
+  Flame,
+  Star,
+  User,
+} from "lucide-react";
+
+export const NAVIGATION_ITEMS = [
+  {
+    title: "Home",
+    href: "/",
+    icon: Home,
+    subItems: [
+      { title: "Trendy", href: "/#trendy" },
+      { title: "Best Selling", href: "/#best-selling" },
+    ],
+  },
+  {
+    title: "Men",
+    href: "/category/men",
+    icon: User,
+    subItems: [
+      { title: "New Arrivals", href: "/category/men/new-arrivals" },
+      { title: "T-Shirts", href: "/category/men/t-shirts" },
+      { title: "Shirts", href: "/category/men/shirts" },
+      { title: "Jeans", href: "/category/men/jeans" },
+      { title: "Jackets", href: "/category/men/jackets" },
+      { title: "Footwear", href: "/category/men/footwear" },
+      { title: "Accessories", href: "/category/men/accessories" },
+    ],
+  },
+  {
+    title: "Women",
+    href: "/category/women",
+    icon: ShoppingBag,
+    subItems: [
+      { title: "New Arrivals", href: "/category/women/new-arrivals" },
+      { title: "Tops", href: "/category/women/tops" },
+      { title: "Dresses", href: "/category/women/dresses" },
+      { title: "Sarees", href: "/category/women/sarees" },
+      { title: "Kurtis", href: "/category/women/kurtis" },
+      { title: "Footwear", href: "/category/women/footwear" },
+      { title: "Accessories", href: "/category/women/accessories" },
+      { title: "Cosmetics", href: "/category/women/cosmetics" },
+    ],
+  },
+  {
+    title: "Kids",
+    href: "/category/kids",
+    icon: Baby,
+    subItems: [
+      { title: "New Arrivals", href: "/category/kids/new-arrivals" },
+      { title: "Boys Clothing", href: "/category/kids/boys-clothing" },
+      { title: "Girls Clothing", href: "/category/kids/girls-clothing" },
+      { title: "Baby Wear", href: "/category/kids/baby-wear" },
+      { title: "Toys", href: "/category/kids/toys" },
+      { title: "Kids Footwear", href: "/category/kids/kids-footwear" },
+    ],
+  },
+  {
+    title: "Gadgets",
+    href: "/category/gadgets",
+    icon: Smartphone,
+    subItems: [
+      { title: "New Arrivals", href: "/category/gadgets/new-arrivals" },
+      { title: "Smartphones", href: "/category/gadgets/smartphones" },
+      { title: "Laptops", href: "/category/gadgets/laptops" },
+      { title: "Headphones", href: "/category/gadgets/headphones" },
+      { title: "Smart Watches", href: "/category/gadgets/smart-watches" },
+      { title: "Accessories", href: "/category/gadgets/accessories" },
+      { title: "Smart Home", href: "/category/gadgets/smart-home" },
+    ],
+  },
+  {
+    title: "Home & Decor",
+    href: "/category/home-decor",
+    icon: Armchair,
+    subItems: [
+      { title: "New Arrivals", href: "/category/home-decor/new-arrivals" },
+      { title: "Wall Art", href: "/category/home-decor/wall-art" },
+      { title: "Showpieces", href: "/category/home-decor/showpieces" },
+      { title: "Lighting", href: "/category/home-decor/lighting" },
+      { title: "Furniture", href: "/category/home-decor/furniture" },
+      {
+        title: "Home Essentials",
+        href: "/category/home-decor/home-essentials",
+      },
+    ],
+  },
+  {
+    title: "Offers",
+    href: "/offers",
+    icon: Flame,
+    subItems: [],
+  },
+  {
+    title: "Best Sellers",
+    href: "/best-sellers",
+    icon: Star,
+    subItems: [],
+  },
+];
